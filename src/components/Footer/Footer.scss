@@ -1,0 +1,42 @@
+@media screen and (min-width: 840px) {
+  .Footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: white;
+    min-height: 180px;
+    width: 100%;
+    &__block {
+      text-align: left;
+      &__element {
+        margin: 8px 0 8px 0;
+      }
+      &__social {
+        width: 25px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 840px) {
+  .Footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: white;
+    min-height: 140px;
+    width: 100%;
+    font-size: 70%;
+    &__block {
+      text-align: left;
+      margin: 0px 15px;
+      &__element {
+        margin: 7px 0 7px 0;
+      }
+      &__social {
+        width: 20px;
+      }
+    }
+  }
+}

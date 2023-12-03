@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Pacifico;
+  src: url(../public/Pacifico-Regular.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Ranchers;
+  src: url(../public/Ranchers-Regular.ttf);
+  font-weight: bold;
+}
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+  //font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: rgb(61, 61, 61);
+  text-decoration: none;
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+}
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+@media screen and (min-width: 840px) {
+  
+  }
+

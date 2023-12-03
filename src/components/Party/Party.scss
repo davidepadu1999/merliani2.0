@@ -1,0 +1,277 @@
+@media screen and (min-width: 840px) {
+  .Party {
+    margin-top: 80px;
+    //min-height: 150vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: rgb(61, 59, 59);
+
+    &__first {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
+      width: 100%;
+      background-image: linear-gradient(
+        to bottom right,
+        whitesmoke 33%,
+        rgb(235, 207, 84)
+      );
+      h1 {
+        font-size: 300%;
+      }
+    }
+    &__second {
+      background-color: rgb(235, 207, 84);
+      background-image: url(../../../public/balloon-bg.png);
+      background-size: 60% 80%;
+      background-position: bottom;
+      background-repeat: repeat-x;
+      min-height: 400px;
+      width: 100%;
+      h1 {
+        font-size: 300%;
+      }
+
+      &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 100%;
+        padding-bottom: 20px;
+        &__info {
+          min-width: 500px;
+          width: 40%;
+          text-align: left;
+          font-size: 100%;
+          margin-top: 100px;
+          padding: 10px;
+          background-image: url(../../../public/balloonbg.jpg);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: initial;
+          border-radius: 0 70px 0 70px;
+          h3 {
+            margin: 2px;
+          }
+          &__contactus {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: row;
+            width: 70%;
+            background-color: whitesmoke;
+            margin-left: 10px;
+            border-radius: 30px;
+            padding: 0 5px 0 5px;
+            h2 {
+              width: 70%;
+            }
+          }
+        }
+        &__rightcontent {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          width: 40%;
+          img {
+            width: 80%;
+            min-height: 300px;
+            border-radius: 20px;
+          }
+          &__contactus {
+            background-color: rgb(243, 223, 133);
+            width: 80%;
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .PartyBlock1,
+  .PartyBlock2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 4vh;
+    width: 66vw;
+    height: 350px;
+    min-height: 300px;
+
+    &__imgdiv {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      height: 100%;
+      width: 50%;
+      margin: 10px 10px 10px 10px;
+      &__img {
+        width: 300px;
+        height: 300px;
+      }
+    }
+    &__description {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      min-width: 300px;
+      height: 100%;
+      margin: 10px 10px 10px 10px;
+      &__textcontainer {
+        background-color: rgb(235, 192, 84);
+        width: 300px;
+        &__text {
+          text-align: left;
+          font-size: 150%;
+          font-weight: 700;
+          margin: 15px;
+          height: 300px;
+          width: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 839px) {
+  .Party {
+    margin-top: 50px;
+    //min-height: 150vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: rgb(61, 59, 59);
+
+    &__first {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
+      width: 100%;
+      background-image: linear-gradient(
+        to bottom right,
+        whitesmoke 33%,
+        rgb(235, 207, 84)
+      );
+      h1 {
+        font-size: 250%;
+        width: 80vw;
+      }
+    }
+    &__second {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: rgb(235, 207, 84);
+      background-image: url(../../../public/balloon-bg.png);
+      width: 100%;
+      h1 {
+        font-size: 200%;
+        width: 80vw;
+        margin: 20px 40px 0 40px;
+      }
+
+      &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 80%;
+        padding-bottom: 20px;
+        &__info {
+          width: 80%;
+          text-align: left;
+          font-size: 80%;
+          margin-top: 35px;
+          padding: 10px;
+          background-image: linear-gradient(
+            to bottom right,
+            whitesmoke,
+            rgb(235, 207, 84)
+          );
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: initial;
+          border-radius: 0 70px 0 70px;
+          &__contactus {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 95%;
+            background-color: whitesmoke;
+            margin-left: 10px;
+            border-radius: 30px;
+            padding: 0 5px 0 5px;
+            h2 {
+              width: 70%;
+            }
+          }
+        }
+        &__rightcontent {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .PartyBlock1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 90vw;
+    margin-top: 50px;
+  }
+  .PartyBlock2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    width: 90vw;
+    margin-top: 50px;
+  }
+  .PartyBlock1,
+  .PartyBlock2 {
+    &__imgdiv {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      width: 70vw;
+      &__img {
+        height: 70vh;
+        width: 70vw;
+        max-height: 250px;
+      }
+    }
+    &__description {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 70vw;
+      &__textcontainer {
+        background-color: rgb(235, 192, 84);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        &__text {
+          text-align: left;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
