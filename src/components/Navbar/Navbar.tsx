@@ -58,6 +58,7 @@ export const Navbar = () => {
       </div>
       <div className="Navbar__menubutton" onClick={ () => { setShowMenu( (prev:boolean) => !prev ) } } />
       {showMenu && <div className="Navbar__mobilemenu" onClick={() => setShowMenu(false)}>
+        <img src="/xbutton.png"  />
         <a href="/"><h2>Home</h2></a>
         <a href="/party"><h2>Eventi</h2></a>
         <a href="/gallery"><h2>Gallery</h2></a>
